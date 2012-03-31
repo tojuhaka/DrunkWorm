@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<TableRow>
+<TextView android:text="Press UP to start the game" android:id="@+id/permilletext" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</TableRow>
+</TableLayout>
+
+<hakaplanet.net.android.DrunkWorm.DrunkWormView android:id="@+id/snake" android:layout_width="fill_parent" android:layout_height="fill_parent" tileSize="24" />
+
+
+
+
+</LinearLayout>
+
